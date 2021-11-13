@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h2>Career Form </h2>
+    <form action="#">
+
+      <label>Name:</label>
+      <input type="name" name="name" placeholder="Enter your name" />
+      <br>
+      <br>
+
+      <label>Email:</label>
+      <input type="email" name="email" autocomplete="email" placeholder="enter your email"  />
+      <br>
+      <br>
+
+
+      <label id="number-label" for="phone">Phone Number:</label>
+      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number"
+      pattern="[8 9 6][0-9]{9}" /> 
+
+      <br>
+      <br>
+
+      <label>Roll No:</label>
+      <input type="number" name="number" id="number" placeholder="Enter roll number" min="0" max="100" required>
+      <br>
+      <br>
+      <fieldset>
+        <legend>What is your study Background?</legend>
+        <input type="radio" name="course"  value="Science">
+        <label for="science">Science</label>
+        <br>
+
+        <input type="radio" name="course"value="Math">
+        <label for="commerce">Commerce</label>
+        <br>
+
+        <input type="radio" name="course"  value="Art">
+        <label for="art">Art</label>
+      </fieldset>
+      <br>
+      <br>
+      <fieldset>
+        <legend>What is your favorite subject></legend>
+        <input type="checkbox" name="subject" value="science">
+        <label for="science">Science</label>
+        <br>
+
+        <input type="checkbox" name="subject" value="commerce">
+        <label for="commerce">Commerce</label>
+        <br>
+
+        <input type="checkbox" name="subject"  value="art">
+        <label for="art">Art</label>
+      </fieldset>
+      <br>
+      <br>
+
+    
+      <button style="text-indent:10px; margin-left:0px; padding-right: 8px;" type="submit;">Submit</button>
+
+  </div>
+</body>
+
+</html>
